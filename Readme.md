@@ -56,4 +56,4 @@ const App = () => {
 
 ## License
 
-ISC © [samuelprigent](https://github.com/samuelprigent)
+MIT © [samuelprigent](https://github.com/samuelprigent)
