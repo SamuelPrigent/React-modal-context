@@ -1,11 +1,14 @@
 {
   "name": "@samuelprigent/react-modal-content",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modal component for React.js customizable using Context.",
   "main": "modalContext.js",
   "author": "Samuel Prigent",
   "license": "MIT",
   "repository": "samuelprigent/React-modal-context",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

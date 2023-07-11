@@ -1,8 +1,8 @@
 import { useState, createContext, useContext } from "react";
 import PropTypes from "prop-types";
 // style
-import cross from "../assets/cross.svg";
-import "../style/index.css";
+import cross from "./assets/cross.svg";
+import "./style/index.css";
 
 export const ModalContext = createContext({
   show: false,

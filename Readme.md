@@ -2,6 +2,10 @@
 
 [![NPM](https://img.shields.io/npm/v/modal-library.svg)](https://www.npmjs.com/package/modal-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Description
+
+A React component that allows iterating multiple modals using context to handle the display.
+
 ## Install
 
 ```bash
@@ -24,7 +28,7 @@ const App = () => {
   const ModalTriggerContext = () => {
     const { toggleShow } = useContext(ModalContext);
 
-    // == Custom modal here
+    // == Edit the modal content here
     const modalContent = (
       <>
         <h2>Modal title</h2>
@@ -35,7 +39,7 @@ const App = () => {
       </>
     );
 
-    // == Custom trigger here
+    // == edit the trigger button here
     return (
       <>
         <button onClick={toggleShow} className="button-style">
