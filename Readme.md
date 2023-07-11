@@ -7,8 +7,8 @@
 React component that allows iterating multiple modals using context to handle the display :
 
 - To add another modal, create a new component like `<CustomModalTwo/>`.
-- Wrap each modal component with its own `<ModalContextProvider>`.
-- This ensures that each modal has its own isolated context for managing its display.
+- Wrap each modal component with his own `<ModalContextProvider>`.
+- This ensures that each modal has his own isolated context for managing its display.
 
 ## Install
 
