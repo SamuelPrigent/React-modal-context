@@ -32,7 +32,7 @@ const App = () => {
   const CustomModal = () => {
     const { toggleShow } = useContext(ModalContext);
 
-    // == Your modal here // don't forget to pass it as a props bellow
+    // == Your modal here
     const modalContent = (
       <>
         <h2>Modal title</h2>
