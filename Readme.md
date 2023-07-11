@@ -1,0 +1,59 @@
+# React-modal-context
+
+[![NPM](https://img.shields.io/npm/v/modal-library.svg)](https://www.npmjs.com/package/modal-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+## Install
+
+```bash
+npm i @samuelprigent/react-modal-context
+```
+
+## Example
+
+In your `App.jsx` file
+
+```jsx
+import { useContext } from "react";
+import {
+  ModalContextProvider,
+  ModalContextVersion,
+  ModalContext,
+} from "../modalContext.jsx";
+
+const App = () => {
+  const ModalTriggerContext = () => {
+    const { toggleShow } = useContext(ModalContext);
+
+    // == Custom modal here
+    const modalContent = (
+      <>
+        <h2>Modal title</h2>
+        <p>Description of the modal</p>
+        <div onClick={toggleShow} className="closeButton">
+          Close
+        </div>
+      </>
+    );
+
+    // == Custom trigger here
+    return (
+      <>
+        <button onClick={toggleShow} className="button-style">
+          Show modal
+        </button>
+        <ModalContextVersion modalContent={modalContent} />
+      </>
+    );
+  };
+
+  return (
+    <ModalContextProvider>
+      <ModalTriggerContext />
+    </ModalContextProvider>
+  );
+};
+```
+
+## License
+
+ISC © [samuelprigent](https://github.com/samuelprigent)

@@ -1,0 +1,71 @@
+.modal {
+  background-color: #000000ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.modal-div {
+  background-color: white;
+  width: 420px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 8px;
+  gap: 12px;
+  padding: 6px;
+  min-height: 41px;
+  color: black;
+}
+
+.closeDiv {
+  height: 35px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.closeLogo {
+  height: 12px;
+}
+
+.closeButton {
+  border-radius: 8px;
+  background-color: white;
+  border: 1.5px solid lightgray;
+  outline: 1.5px solid transparent;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  color: black;
+  user-select: none;
+  min-width: 60px;
+  width: 70%;
+}
+.closeButton:hover {
+  color: black;
+  border-color: #7593ff;
+  outline: 2.5px solid #0062ff2a;
+}
+.closeButton:focus,
+.closeButton:focus-visible {
+  color: black;
+  border-color: #7593ff;
+  outline: none;
+}

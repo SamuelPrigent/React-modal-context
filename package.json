@@ -1,0 +1,21 @@
+{
+  "name": "@samuelprigent/react-modal-content",
+  "version": "1.0.0",
+  "description": "Modal component for React.js customizable using Context.",
+  "main": "modalContext.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "prop-types": "^15.8.1"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-modal",
+    "context"
+  ],
+  "author": "Samuel Prigent",
+  "license": "MIT"
+}
