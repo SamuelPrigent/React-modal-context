@@ -22,7 +22,7 @@ export const ModalContextProvider = ({ children }) => {
   );
 };
 
-export const ModalContextVersion = ({ modalContent }) => {
+export const ModalVersion = ({ modalContent }) => {
   // state of show
   const { show, toggleShow } = useContext(ModalContext);
 
@@ -42,6 +42,6 @@ export const ModalContextVersion = ({ modalContent }) => {
 ModalContextProvider.propTypes = {
   children: PropTypes.element,
 };
-ModalContextVersion.propTypes = {
+ModalVersion.propTypes = {
   modalContent: PropTypes.element,
 };

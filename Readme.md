@@ -4,7 +4,11 @@
 
 ## Description
 
-A React component that allows iterating multiple modals using context to handle the display.
+React component that allows iterating multiple modals using context to handle the display :
+
+- To add another modal, create a new component like <CustomModalTwo />.
+- Wrap each modal component with its own <ModalContextProvider>.
+- This ensures that each modal has its own isolated context for managing its display.
 
 ## Install
 
@@ -20,15 +24,15 @@ In your `App.jsx` file
 import { useContext } from "react";
 import {
   ModalContextProvider,
-  ModalContextVersion,
+  ModalVersion,
   ModalContext,
 } from "../modalContext.jsx";
 
 const App = () => {
-  const ModalTriggerContext = () => {
+  const CustomModal = () => {
     const { toggleShow } = useContext(ModalContext);
 
-    // == Edit the modal content here
+    // == Your modal here // don't forget to pass it as a props bellow
     const modalContent = (
       <>
         <h2>Modal title</h2>
@@ -39,20 +43,20 @@ const App = () => {
       </>
     );
 
-    // == edit the trigger button here
+    // == Your trigger here
     return (
       <>
         <button onClick={toggleShow} className="button-style">
           Show modal
         </button>
-        <ModalContextVersion modalContent={modalContent} />
+        <ModalVersion modalContent={modalContent} />
       </>
     );
   };
 
   return (
     <ModalContextProvider>
-      <ModalTriggerContext />
+      <CustomModal />
     </ModalContextProvider>
   );
 };
