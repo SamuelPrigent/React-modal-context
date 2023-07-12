@@ -1,6 +1,6 @@
 # React-modal-context
 
-[![NPM](https://img.shields.io/npm/v/modal-library.svg)](https://www.npmjs.com/package/modal-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/modal-library.svg)](https://www.npmjs.com/package/@samuelprigent/react-modal-content)
 
 ## Description
 
