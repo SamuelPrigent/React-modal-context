@@ -1,6 +1,6 @@
 {
   "name": "@samuelprigent/react-modal-content",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Modal component for React.js using Context.",
   "main": "modalContext.js",
   "author": "Samuel Prigent",

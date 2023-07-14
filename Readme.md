@@ -4,7 +4,7 @@
 
 ## Description
 
-React component that allows iterating multiple modals using context to handle the display.
+React component that allows iterating multiple modals using context to handle the display :
 
 - To add another modal, create a new component like `<CustomModalTwo/>`.
 - Wrap each modal component with his own `<ModalContextProvider>`.
