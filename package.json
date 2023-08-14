@@ -1,8 +1,8 @@
 {
   "name": "@samuelprigent/react-modal-context",
-  "version": "1.0.93",
+  "version": "1.0.94",
   "description": "Modal component for React.js using Context.",
-  "main": "index.jsx",
+  "main": "index.js",
   "author": "Samuel Prigent",
   "license": "MIT",
   "repository": "samuelprigent/React-modal-context",
