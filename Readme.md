@@ -26,7 +26,7 @@ import {
   ModalContextProvider,
   ModalVersion,
   ModalContext,
-} from "../modalContext.jsx";
+} from "@samuelprigent/react-modal-context";
 
 const App = () => {
   const CustomModal = () => {
