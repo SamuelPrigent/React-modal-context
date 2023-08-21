@@ -1,6 +1,10 @@
 # React-modal-context
 
+## Package NPM link
+
 [![NPM](https://img.shields.io/npm/v/modal-library.svg)](https://www.npmjs.com/package/@samuelprigent/react-modal-context)
+
+- https://www.npmjs.com/package/@samuelprigent/react-modal-context
 
 ## Description
 
